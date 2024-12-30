@@ -25,6 +25,12 @@ A query is to be writen to calculate the total number of parcels processed at ea
   - Exclude all records associated with test shippers, test hubs, or tracking IDs that include the words "test".
   - Sort the output by sort hub name, date, and parcel size.
  
+### Required Output Columns:
+| Date       | Sort Hub Name     | Parcel Size   | Total Parcels   |  
+|------------|-------------------|---------------|-----------------|  
+| ...        | ...               | ...           | ...             |  
+
+**HUBS**
 | Name  | Type    | Description                                               | Paraphrased Description                                |
 |-------|---------|-----------------------------------------------------------|--------------------------------------------------------|
 | id    | INTEGER | This is the unique identifier of each hub.                | A unique numeric identifier for each hub.             |
@@ -33,6 +39,7 @@ A query is to be writen to calculate the total number of parcels processed at ea
 | region| VARCHAR | This is the region of the hub.                            | The geographical region the hub serves.               |
 | type  | VARCHAR | This denotes if a hub is a sort hub or a delivery hub.    | Indicates if the hub functions as a sort hub or a delivery hub. |
 
+**SHIPPER**
 | Name     | Type    | Description                                       | Paraphrased Description                      |
 |----------|---------|---------------------------------------------------|----------------------------------------------|
 | id       | INTEGER | This is the unique identifier of each shipper.    | A unique numeric identifier for each shipper.|
@@ -40,8 +47,5 @@ A query is to be writen to calculate the total number of parcels processed at ea
 | category | VARCHAR | This is the industry of the shipper.              | The type of industry the shipper is associated with. |
 
 
-### Required Output Columns:
-| Date       | Sort Hub Name     | Parcel Size   | Total Parcels   |  
-|------------|-------------------|---------------|-----------------|  
-| ...        | ...               | ...           | ...             |  
+
 
