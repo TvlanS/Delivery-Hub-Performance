@@ -12,17 +12,11 @@ A query is to be writen to calculate the total number of parcels processed at ea
 | Parcel Size ID | Description |
 |----------------|-------------|
 | 0              | XXSMALL     |
-|----------------|-------------|   
 | 1              | XSMALL      |
-|----------------|-------------|
 | 2              | MEDIUM      |
-|----------------|-------------|
 | 3              | LARGE       |
-|----------------|-------------|
 | 4              | XLARGE      |
-|----------------|-------------|
 | 5              | JUMBO       |
-
 
 - **Rules:**  
   - If a parcel is scanned multiple times in one day, count it as a single parcel.  
