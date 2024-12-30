@@ -7,14 +7,20 @@ A query is to be writen to calculate the total number of parcels processed at ea
 
 **Requirements:** 
 - **Datetime format:** All datetime values are in UTC. Convert them to local time by adding 8 hours and display the results accordingly.  
-- **Parcel size mapping:** The `orders.parcel_size_id` column determines the parcel size. Replace the `parcel_size_id` values with descriptive labels as follows:  
+- **Parcel size mapping:** The `orders.parcel_size_id` column determines the parcel size. Replace the `parcel_size_id` values with descriptive labels as follows:
+
 | Parcel Size ID | Description |
 |----------------|-------------|
 | 0              | XXSMALL     |
+|----------------|-------------|   
 | 1              | XSMALL      |
+|----------------|-------------|
 | 2              | MEDIUM      |
+|----------------|-------------|
 | 3              | LARGE       |
+|----------------|-------------|
 | 4              | XLARGE      |
+|----------------|-------------|
 | 5              | JUMBO       |
 
 
