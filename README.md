@@ -26,9 +26,13 @@ A query is to be writen to calculate the total number of parcels processed at ea
   - Sort the output by sort hub name, date, and parcel size.
  
 ### Required Output Columns:
+
 | Date       | Sort Hub Name     | Parcel Size   | Total Parcels   |  
 |------------|-------------------|---------------|-----------------|  
 | ...        | ...               | ...           | ...             |  
+
+### Tables provided:
+Four tables are provided in this analysis.
 
 **HUBS**
 | Name  | Type    | Description                                |
@@ -46,12 +50,6 @@ A query is to be writen to calculate the total number of parcels processed at ea
 | name     | VARCHAR | The shipper’s name.                          |
 | category | VARCHAR | The type of industry the shipper is associated with. |
 
-**ORDERS**
-| Name     | Type    | Description                      |
-|----------|---------|----------------------------------|
-| order_id       | INTEGER | A unique numeric identifier for each order.|
-| hub_id     | INTEGER | A unique numeric identifier for each hub.   |
-| scan_datetime | DATETIME | Parcel scan date and time. |
 
 **ORDERS**
 | Name     | Type    | Description                      |
@@ -61,6 +59,13 @@ A query is to be writen to calculate the total number of parcels processed at ea
 | status | VARCHAR | Order status. |
 | shipper_id | INTEGER | A unique numeric identifier for each shipper.|
 | parcel_size_id | INTEGER | Parcel size ranging from 0 to 5. |
+
+**SCANS**
+| Name     | Type    | Description                      |
+|----------|---------|----------------------------------|
+| order_id       | INTEGER | A unique numeric identifier for each order.|
+| hub_id     | INTEGER | A unique numeric identifier for each hub.   |
+| scan_datetime | DATETIME | Parcel scan date and time. |
 
 
 
