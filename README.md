@@ -75,7 +75,9 @@ Four tables are provided in this analysis.
 
 [`SCANS DATA`](https://github.com/TvlanS/Sorting-Hub-Performance/blob/main/2.0%20Data%20Sets/SCANS.csv)
 
-### Solution
+### Solution :
+
+The query has been written with mysql , a truncated output of the query is shown below.
 
 | Date       | Location      | Parcel Size    | Quantity |
 |------------|---------------|---------|----------|
