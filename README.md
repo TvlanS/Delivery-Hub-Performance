@@ -22,7 +22,7 @@ A query is to be writen to calculate the total number of parcels processed at ea
   - Count a parcel only once per day, even if it is scanned multiple times on the same day.
   - For parcels scanned across multiple days, count them separately for each day.
   - If a parcel is processed at multiple sort hubs, count it once for each hub.
-  - Exclude all records associated with test shippers, test hubs, or tracking IDs that include the words "test" or "testing."
+  - Exclude all records associated with test shippers, test hubs, or tracking IDs that include the words "test".
   - Sort the output by sort hub name, date, and parcel size.
 
 
