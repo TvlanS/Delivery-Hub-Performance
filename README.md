@@ -2,7 +2,7 @@
 
 ### Sort Hub Productivity
 
-Evaluate the productivity company Z's sorting hubs, specifically focusing on the performance of sort hubs in the Malaysia region.  
+Evaluate the productivity of company Z's sorting hubs, specifically focusing on the performance of sort hubs in the Malaysia region.  
 A query is to be writen to calculate the total number of parcels processed at each sort hub in East Malaysia daily, categorized by parcel size, for the period from 1th Dec 2024 to 25th Dec 2024.
 
 **Requirements:** 
