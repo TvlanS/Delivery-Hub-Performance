@@ -64,7 +64,7 @@ Four tables are provided in this analysis.
 | shipper_id | INTEGER | A unique numeric identifier for each shipper.|
 | parcel_size_id | INTEGER | Parcel size ranging from 0 to 5. |
 
-[`HUBS DATA`](https://github.com/TvlanS/Sorting-Hub-Performance/blob/main/2.0%20Data%20Sets/ORDERS.csv)
+[`ORDERS DATA`](https://github.com/TvlanS/Sorting-Hub-Performance/blob/main/2.0%20Data%20Sets/ORDERS.csv)
 
 **SCANS**
 | Name     | Type    | Description                      |
@@ -73,7 +73,7 @@ Four tables are provided in this analysis.
 | hub_id     | INTEGER | A unique numeric identifier for each hub.   |
 | scan_datetime | DATETIME | Parcel scan date and time. |
 
-[`HUBS DATA`](https://github.com/TvlanS/Sorting-Hub-Performance/blob/main/2.0%20Data%20Sets/SCANS.csv)
+[`SCANS DATA`](https://github.com/TvlanS/Sorting-Hub-Performance/blob/main/2.0%20Data%20Sets/SCANS.csv)
 
 
 
