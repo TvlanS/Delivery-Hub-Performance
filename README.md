@@ -31,13 +31,13 @@ A query is to be writen to calculate the total number of parcels processed at ea
 | ...        | ...               | ...           | ...             |  
 
 **HUBS**
-| Name  | Type    | Description                                               | Paraphrased Description                                |
-|-------|---------|-----------------------------------------------------------|--------------------------------------------------------|
-| id    | INTEGER | This is the unique identifier of each hub.                | A unique numeric identifier for each hub.             |
-| name  | VARCHAR | This is the name of the hub.                              | The hub’s name.                                       |
-| state | VARCHAR | This is the state of the hub.                             | The state where the hub is situated.                  |
-| region| VARCHAR | This is the region of the hub.                            | The geographical region the hub serves.               |
-| type  | VARCHAR | This denotes if a hub is a sort hub or a delivery hub.    | Indicates if the hub functions as a sort hub or a delivery hub. |
+| Name  | Type    | Paraphrased Description                                |
+|-------|---------|--------------------------------------------------------|
+| id    | INTEGER | A unique numeric identifier for each hub.              |
+| name  | VARCHAR | The hub’s name.                                        |
+| state | VARCHAR | The state where the hub is situated.                   |
+| region| VARCHAR | The geographical region the hub serves.                |
+| type  | VARCHAR | Indicates if the hub functions as a sort hub or a delivery hub. |
 
 **SHIPPER**
 | Name     | Type    | Description                                       | Paraphrased Description                      |
