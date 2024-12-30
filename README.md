@@ -31,7 +31,7 @@ A query is to be writen to calculate the total number of parcels processed at ea
 | ...        | ...               | ...           | ...             |  
 
 **HUBS**
-| Name  | Type    | Paraphrased Description                                |
+| Name  | Type    | Description                                |
 |-------|---------|--------------------------------------------------------|
 | id    | INTEGER | A unique numeric identifier for each hub.              |
 | name  | VARCHAR | The hub’s name.                                        |
@@ -40,11 +40,11 @@ A query is to be writen to calculate the total number of parcels processed at ea
 | type  | VARCHAR | Indicates if the hub functions as a sort hub or a delivery hub. |
 
 **SHIPPER**
-| Name     | Type    | Description                                       | Paraphrased Description                      |
-|----------|---------|---------------------------------------------------|----------------------------------------------|
-| id       | INTEGER | This is the unique identifier of each shipper.    | A unique numeric identifier for each shipper.|
-| name     | VARCHAR | This is the name of the shipper.                  | The shipper’s name.                          |
-| category | VARCHAR | This is the industry of the shipper.              | The type of industry the shipper is associated with. |
+| Name     | Type    | Description                      |
+|----------|---------|----------------------------------|
+| id       | INTEGER | A unique numeric identifier for each shipper.|
+| name     | VARCHAR | The shipper’s name.                          |
+| category | VARCHAR | The type of industry the shipper is associated with. |
 
 
 
