@@ -42,6 +42,7 @@ Four tables are provided in this analysis.
 | state | VARCHAR | The state where the hub is situated.                   |
 | region| VARCHAR | The geographical region the hub serves.                |
 | type  | VARCHAR | Indicates if the hub functions as a sort hub or a delivery hub. |
+[`HUBS DATA`](https://github.com/TvlanS/Sorting-Hub-Performance/blob/main/2.0%20Data%20Sets/HUBS.csv)
 
 **SHIPPER**
 | Name     | Type    | Description                      |
@@ -49,6 +50,7 @@ Four tables are provided in this analysis.
 | id       | INTEGER | A unique numeric identifier for each shipper.|
 | name     | VARCHAR | The shipper’s name.                          |
 | category | VARCHAR | The type of industry the shipper is associated with. |
+[`SHIPPER DATA`](https://github.com/TvlanS/Sorting-Hub-Performance/blob/main/2.0%20Data%20Sets/SHIPPER.csv)
 
 
 **ORDERS**
@@ -59,6 +61,7 @@ Four tables are provided in this analysis.
 | status | VARCHAR | Order status. |
 | shipper_id | INTEGER | A unique numeric identifier for each shipper.|
 | parcel_size_id | INTEGER | Parcel size ranging from 0 to 5. |
+[`HUBS DATA`](https://github.com/TvlanS/Sorting-Hub-Performance/blob/main/2.0%20Data%20Sets/ORDERS.csv)
 
 **SCANS**
 | Name     | Type    | Description                      |
@@ -66,6 +69,7 @@ Four tables are provided in this analysis.
 | order_id       | INTEGER | A unique numeric identifier for each order.|
 | hub_id     | INTEGER | A unique numeric identifier for each hub.   |
 | scan_datetime | DATETIME | Parcel scan date and time. |
+[`HUBS DATA`](https://github.com/TvlanS/Sorting-Hub-Performance/blob/main/2.0%20Data%20Sets/SCANS.csv)
 
 
 
