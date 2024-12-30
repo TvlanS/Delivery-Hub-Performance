@@ -49,6 +49,13 @@ A query is to be writen to calculate the total number of parcels processed at ea
 **ORDERS**
 | Name     | Type    | Description                      |
 |----------|---------|----------------------------------|
+| order_id       | INTEGER | A unique numeric identifier for each order.|
+| hub_id     | INTEGER | A unique numeric identifier for each hub.   |
+| scan_datetime | DATETIME | Parcel scan date and time. |
+
+**ORDERS**
+| Name     | Type    | Description                      |
+|----------|---------|----------------------------------|
 | id       | INTEGER | A unique numeric identifier for each order.|
 | tracking_id     | VARCHAR | A unique numeric identifier for each order. |
 | status | VARCHAR | Order status. |
