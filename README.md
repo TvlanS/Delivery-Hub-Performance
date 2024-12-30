@@ -75,6 +75,18 @@ Four tables are provided in this analysis.
 
 [`SCANS DATA`](https://github.com/TvlanS/Sorting-Hub-Performance/blob/main/2.0%20Data%20Sets/SCANS.csv)
 
+### Solution
+
+| Date       | Location      | Parcel Size    | Quantity |
+|------------|---------------|---------|----------|
+| 2024-12-02 | Kuching       | LARGE   | 1        |
+| 2024-12-02 | Labuan        | XLARGE  | 1        |
+| 2024-12-03 | Kota Kinabalu | XSMALL  | 1        |
+
+
+
+
+
 
 
 
