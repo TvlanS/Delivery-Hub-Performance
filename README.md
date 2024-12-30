@@ -78,6 +78,7 @@ Four tables are provided in this analysis.
 ### Solution :
 
 The query has been written with mysql , a truncated output of the query is shown below.
+
 [`SQL Code`](https://github.com/TvlanS/Sorting-Hub-Performance/blob/main/3.0%20SQL%20code/Performance%20SQL%20Code%20V2.sql)
 
 | Date       | Location      | Parcel Size    | Quantity |
