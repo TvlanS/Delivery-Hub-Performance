@@ -52,7 +52,7 @@ Four tables are provided in this analysis.
 | name     | VARCHAR | The shipper’s name.                          |
 | category | VARCHAR | The type of industry the shipper is associated with. |
 
-[`SHIPPER DATA`](https://github.com/TvlanS/Sorting-Hub-Performance/blob/main/2.0%20Data%20Sets/SHIPPER.csv)
+[`SHIPPER DATA`](https://github.com/TvlanS/Sorting-Hub-Performance/blob/main/2.0%20Data%20Sets/SHIPPERs.csv)
 
 
 **ORDERS**
