@@ -18,12 +18,13 @@ A query is to be writen to calculate the total number of parcels processed at ea
 | 4              | XLARGE      |
 | 5              | JUMBO       |
 
-- **Rules:**  
-  - If a parcel is scanned multiple times in one day, count it as a single parcel.  
-  - If a parcel is scanned over several days, count it once for each day.  
-  - If a parcel is scanned at different sort hubs, count it once per sort hub.  
-  - Exclude any records related to test shippers, test hubs, or tracking IDs containing the words "test" or "testing."  
-  - Arrange the output by sort hub name, date, and parcel size.
+- **Guidelines:**
+  - Count a parcel only once per day, even if it is scanned multiple times on the same day.
+  - For parcels scanned across multiple days, count them separately for each day.
+  - If a parcel is processed at multiple sort hubs, count it once for each hub.
+  - Exclude all records associated with test shippers, test hubs, or tracking IDs that include the words "test" or "testing."
+  - Sort the output by sort hub name, date, and parcel size.
+
 
 ### Required Output Columns:
 | Date       | Sort Hub Name     | Parcel Size   | Total Parcels   |  
