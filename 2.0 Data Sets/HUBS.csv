@@ -1,0 +1,51 @@
+hub_id,name,state,region,type
+3,Kempas,Johor,South,delivery_hub
+5,Butterworth,"Pulau Pinang",North,sort_hub
+6,Ipoh,Perak,North,delivery_hub
+9,Senawang,"Negeri Sembilan",South,delivery_hub
+12,"Alor Gajah",Melaka,South,delivery_hub
+13,Kuantan,Pahang,"East Coast",delivery_hub
+23,"Gong Badak",Terengganu,"East Coast",delivery_hub
+30,"Kota Bharu",Kelantan,"East Coast",delivery_hub
+52,"Alor Setar",Kedah,North,delivery_hub
+84,Ampang,Selangor,Central,sort_hub
+102,"Johor Bahru",Johor,South,delivery_hub
+110,"Kuala Terengganu",Terengganu,"East Coast",delivery_hub
+115,Rawang,Selangor,Central,sort_hub
+130,"Shah Alam",Selangor,Central,delivery_hub
+133,Seremban,"Negeri Sembilan",South,delivery_hub
+145,Klang,Selangor,Central,sort_hub
+150,"Bayan Lepas","Pulau Pinang",North,delivery_hub
+160,"Kota Kinabalu",Sabah,"East Malaysia",delivery_hub
+170,Kuching,Sarawak,"East Malaysia",delivery_hub
+175,Taiping,Perak,North,sort_hub
+180,"Bukit Mertajam","Pulau Pinang",North,delivery_hub
+185,Muar,Johor,South,delivery_hub
+190,Segamat,Johor,South,sort_hub
+200,Jasin,Melaka,South,delivery_hub
+210,Kulim,Kedah,North,delivery_hub
+220,"Batu Pahat",Johor,South,delivery_hub
+230,"Kepala Batas","Pulau Pinang",North,delivery_hub
+240,Bentong,Pahang,"East Coast",delivery_hub
+250,Temerloh,Pahang,"East Coast",delivery_hub
+260,Dengkil,Selangor,Central,sort_hub
+270,Cyberjaya,Selangor,Central,sort_hub
+280,Putrajaya,"Federal Territory",Central,sort_hub
+290,Manjung,Perak,North,delivery_hub
+300,"Pasir Gudang",Johor,South,delivery_hub
+310,"Sri Aman",Sarawak,"East Malaysia",delivery_hub
+320,Sandakan,Sabah,"East Malaysia",delivery_hub
+330,"Lahad Datu",Sabah,"East Malaysia",delivery_hub
+340,Tawau,Sabah,"East Malaysia",delivery_hub
+350,Bintulu,Sarawak,"East Malaysia",delivery_hub
+360,Miri,Sarawak,"East Malaysia",delivery_hub
+370,Sibu,Sarawak,"East Malaysia",delivery_hub
+380,Labuan,"Federal Territory","East Malaysia",delivery_hub
+390,Sepang,Selangor,Central,delivery_hub
+400,Cheras,"Kuala Lumpur",Central,delivery_hub
+410,Gombak,Selangor,Central,sort_hub
+420,Kajang,Selangor,Central,delivery_hub
+430,Selayang,Selangor,Central,delivery_hub
+440,Puchong,Selangor,Central,delivery_hub
+450,"Subang Jaya",Selangor,Central,delivery_hub
+460,"Petaling Jaya",Selangor,Central,delivery_hub
