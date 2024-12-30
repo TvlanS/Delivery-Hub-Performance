@@ -46,6 +46,15 @@ A query is to be writen to calculate the total number of parcels processed at ea
 | name     | VARCHAR | The shipper’s name.                          |
 | category | VARCHAR | The type of industry the shipper is associated with. |
 
+**ORDERS**
+| Name     | Type    | Description                      |
+|----------|---------|----------------------------------|
+| id       | INTEGER | A unique numeric identifier for each order.|
+| tracking_id     | VARCHAR | A unique numeric identifier for each order. |
+| status | VARCHAR | Order status. |
+| shipper_id | INTEGER | A unique numeric identifier for each shipper.|
+| parcel_size_id | INTEGER | Parcel size ranging from 0 to 5. |
+
 
 
 
