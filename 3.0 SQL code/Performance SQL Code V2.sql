@@ -1,10 +1,10 @@
 USE practice;
 
-SELECT DATE(convert_tz(s.scan_datetime ,'+00:00','+08:00')) AS "DATE" , h.name AS "NAME",
+SELECT DATE(convert_tz(s.scan_datetime ,'+00:00','+08:00')) AS "DATE" , h.name AS "LOCATION",
 CASE 
 	WHEN o.parcel_size_id = "0" THEN "XXSMALL"
-    WHEN o.parcel_size_id = "1" THEN "XSMALL"
-    WHEN o.parcel_size_id = "2" THEN "MEDIUM"
+        WHEN o.parcel_size_id = "1" THEN "XSMALL"
+        WHEN o.parcel_size_id = "2" THEN "MEDIUM"
 	WHEN o.parcel_size_id = "3" THEN "LARGE"
 	WHEN o.parcel_size_id = "4" THEN "XLARGE"
 	WHEN o.parcel_size_id = "5" THEN "JUMBO"
