@@ -30,4 +30,3 @@ A query is to be writen to calculate the total number of parcels processed at ea
 |------------|-------------------|---------------|-----------------|  
 | ...        | ...               | ...           | ...             |  
 
-Let me know if you’d like assistance with creating the query!
