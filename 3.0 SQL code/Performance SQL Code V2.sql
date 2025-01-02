@@ -23,6 +23,8 @@ WHERE
     h.region = "East Malaysia"
     and
 	DATE(convert_tz(s.scan_datetime ,'+00:00','+08:00')) between "2024-12-01" and "2024-12-15"
+    and 
+    h.type = "delivery_hub"	
 GROUP BY 
 	DATE(convert_tz(s.scan_datetime ,'+00:00','+08:00')) , h.name , o.parcel_size_id 
 ORDER BY 
