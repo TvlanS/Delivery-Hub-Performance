@@ -83,13 +83,15 @@ The query has been written with mysql , a truncated output of the query is shown
 
 | Date       | Location      | Parcel Size    | Quantity |
 |------------|---------------|---------|----------|
-| 2024-12-02 | Kuching       | LARGE   | 1        |
-| 2024-12-02 | Labuan        | XLARGE  | 1        |
-| 2024-12-03 | Kota Kinabalu | XSMALL  | 1        |
+| 2024-12-10	 | Bintulu	      | LARGE   | 1        |
+| 2024-12-03 | Kota Kinabalu      | XSMALL  | 1        |
+| 2024-12-09 | Kota Kinabalu | XLARGE  | 1        |
 
 
 
-
+2024-12-10	Bintulu	MEDIUM	1
+2024-12-03	Kota Kinabalu	XSMALL	1
+2024-12-09	Kota Kinabalu	XLARGE	1
 
 
 
