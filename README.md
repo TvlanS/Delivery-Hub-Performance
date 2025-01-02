@@ -88,10 +88,5 @@ The query has been written with mysql , a truncated output of the query is shown
 
 
 
-2024-12-10	Bintulu	MEDIUM	1
-2024-12-03	Kota Kinabalu	XSMALL	1
-2024-12-09	Kota Kinabalu	XLARGE	1
-
-
 
 
